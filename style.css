@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #e75fd7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #74c1f5, #b745a6);
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #c0392b;
+}
+
+nav {
+    background-color: #7acdcd;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #0b0000;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d94aba;
+}
+
+#about {
+    background-color: #f0f8f5;
+    padding: 60px 0;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #5dc9d1;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-content img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.about-content p {
+    max-width: 600px;
+    text-align: left;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #111a15;
+}
+
+#hobbies h2 {
+    background: linear-gradient(135deg, #74c1f5, #b745a6);
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hobby {
+    padding: 15px;
+    border: 1px solid #090a0a;
+    border-radius: 8px;
+    background-color: #f5eded;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.hobby:hover {
+    background-color: #04090a;
+    box-shadow: 0 4px 12px rgba(143, 228, 245, 0.1);
+}
+
+.hobby h3 {
+    font-size: 1.5em;
+    color: #d18a8a;
+    margin-bottom: 10px;
+}
+
+/* Styling for hobby descriptions */
+.hobby p {
+    font-size: 1em;
+    color: #666;
+}
+
+#travels {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+
+#travels h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c3e50;
+}
+
+.travel-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.travel-card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.travel-card:hover {
+    transform: translateY(-5px);
+}
+
+.travel-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.travel-card p {
+    margin-bottom: 20px;
+
+}
+#wattpadstories {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+
+#wattpad h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c3e50;
+}
+
+.wattpad-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.wattpad-card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.wattpad-card:hover {
+    transform: translateY(-5px);
+}
+
+.wattpad-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.wattpad-card p {
+    margin-bottom: 20px;
+}
+
+#contact {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
